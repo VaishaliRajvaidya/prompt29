@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+html,body {
+width: 100%;
+height: 100%;
+background-color: transparent;
+justify-content: center;
+align-items: center;
+} 
+.container{
+    width: 800px;
+    height:500px;
+    background-color:antiquewhite;
+    margin-top: 50px;
+    margin-left: 300px;
+    display: flex;
+}
+.form1{
+background-color:rgb(204, 211, 209);
+width:400px;
+height: 100%;
+border-color: black;
+border-radius: 10px;
+box-shadow: rgb(56, 53, 53);
+color: black;
+text-align: center; 
+justify-content: center;
+align-items: center;
+padding: 100px;
+color: black;
+}
+
+.form2{
+    background-color:rgb(204, 211, 209);
+    width:400px;
+    height: 100%;
+    border-radius: 10px;
+    box-shadow: rgb(59, 58, 58);
+    border-color: black;
+    color: black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    } 
+      .form1 h1 {
+        text-align: center;
+        margin-top: 20px;
+        color: black;
+        font-size: 50px;
+        position: relative;
+      } 
+      .form2 h1 {
+        text-align: center;
+        margin-top: 5px;
+        color:white;
+        font-size: 30px;
+        position: relative;
+      } 
+      
+      
+      form input {
+        width: 55%;
+        padding: 10px ;
+        margin: 5px ;
+        border:black;
+        border-radius: 5px;
+        margin-top: 40px;
+        font-family: inherit;
+        color: beige;
+      }
+      form input:focus {
+        outline: none;
+        border: 1px solid var(--dark-color);
+      }
+      form #btn { 
+        width: 110px;
+        height: 40px;
+        margin: 10px;
+        background-color:blue;
+        cursor: pointer;
+        font-size: 10px;
+        font-family: inherit;
+        border-radius: 5px;
+        
+      }
+      form button:active {
+        transform: scale(0.98);
+      }
+      
